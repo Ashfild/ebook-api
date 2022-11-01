@@ -73,7 +73,7 @@ class AuthController extends Controller
         $request->user()->currentAccessToken()->delete();
 
         return [
-            'message' => 'Berhasil logout harap login kembali kalo mau😋'
+            'message' => 'Berhasil logout, harap login kembali kalo mau😋'
         ];
     }
 
